@@ -29,7 +29,7 @@ header h1 {
 
 header h2 {
     font-size: 2.5rem;
-    color: #1e40af; /* dark blue */
+    color: #334155; /* dark blue */
     padding: 1rem;
 }
 
@@ -114,7 +114,7 @@ footer {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 2rem 1rem;
 }
