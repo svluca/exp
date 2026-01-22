@@ -14,17 +14,18 @@ header {
     margin-bottom: 3rem;
 }
 
+
+header h1 {
+    font-size: 2.5rem;
+    color: #1e40af; /* dark blue */
+}
+
+
 main {
     max-width: 900px;
     margin: 0 auto;
     color: #000;
   text-align: center;
-
-}
-
-header h1 {
-    font-size: 2.5rem;
-    color: #1e40af; /* dark blue */
 }
 
 nav ul {
@@ -78,4 +79,10 @@ nav a:hover {
     border-left-color: #2563eb; /* darker blue accent on hover */
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+}
+
+footer {
+   bacground-color: #334155; /* dark gray-blue */
+  color: #475569; /* soft gray */
+  text-align: center
 }
