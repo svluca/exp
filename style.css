@@ -1,0 +1,63 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f5f9; /* light gray-blue */
+    color: #334155; /* dark gray-blue */
+    margin: 0;
+    padding: 2rem;
+}
+header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    color: #000;
+
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #1e40af; /* dark blue */
+}
+
+li {
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+
+
+.reasons {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.reason {
+    background-color: #f8fafc; /* very light gray-blue */
+    border-left: 4px solid #3b82f6; /* soft blue accent */
+    padding: 1.5rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.reason h3 {
+    margin-bottom: 0.5rem;
+    color: #1e3a8a; /* dark blue */
+}
+
+.reason p {
+    color: #475569; /* soft gray */
+    line-height: 1.6;
+}
+.reason:hover {
+    background-color: #e0f2fe; /* light blue on hover */
+    border-left-color: #2563eb; /* darker blue accent on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
