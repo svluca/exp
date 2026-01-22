@@ -7,13 +7,17 @@ body {
    background-color: #f1f5f9; /* light gray-blue */
     color: #334155; /* dark gray-blue */
     margin: 0;
-    padding: 2rem;
+    padding: 0;
 }
 header {
     text-align: center;
     margin-bottom: 3rem;
     background: linear-gradient(in hsl, #e0f2fe, #f0fdf4);
-    padding: 3rem 1.5rem;
+    padding: 0;
+    min-height: 25vh;
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
