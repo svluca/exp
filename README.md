@@ -4,6 +4,10 @@ MyMon is a simple personal expense tracker focused on clarity, not complexity.
 
 ---
 
+Note: MyMon is a working project name. Trademark availability will be checked later, and the name may change to MonMom or another alternative if needed.
+
+---
+
 ## What MyMon v1 Is
 
 - A small tool to track personal expenses
