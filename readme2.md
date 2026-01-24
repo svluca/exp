@@ -4,6 +4,10 @@ MyMon este un tracker simplu de cheltuieli personale, creat pentru claritate, nu
 
 ---
 
+Note: MyMon is a working project name. Trademark availability will be checked later, and the name may change to MonMom or another alternative if needed.
+
+---
+
 ## Ce este MyMon v1
 
 - Un tool mic pentru urmărirea cheltuielilor personale
