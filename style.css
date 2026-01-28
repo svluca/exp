@@ -254,3 +254,145 @@ footer {
   font-size: 0.9rem;
   color: #64748b;
 }
+
+/* ---------- Dashboard ---------- */
+
+/* month block */
+.month {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  padding-bottom: 2rem;
+  text-align: left;
+}
+
+/* header (This month + total) 
+.month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}*/
+
+.month-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.month-header h2 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  opacity: 0.9;
+}
+
+
+.month-total {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* details */
+.month-details {
+  margin-top: 1.5rem;
+}
+
+/* expenses */
+.expense-section h3 {
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.expense-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+
+.expense-item:last-child {
+  border-bottom: none;
+}
+
+.expense-name {
+  opacity: 0.7;
+}
+
+.expense-amount {
+  font-weight: 600;
+}
+
+.add-expense-toggle {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  color: #94a3b8;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0;
+}
+
+.add-expense-toggle:hover {
+  text-decoration: underline;
+}
+
+.add-expense-form {
+  margin-top: 1rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+/*.add-expense-form button {
+  margin-top: 0.5rem;
+  padding: 0.65rem 1rem;
+  margin-left: 0;
+  display: grid;
+  gap: 0.75rem;
+  color: #020617;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+} */
+
+.add-expense-form button {
+  margin-top: 0.5rem;
+  padding: 0.6rem 1rem;
+
+  background: #d8ebf3;
+  color: #020617;
+
+  border: none;
+  border-radius: 10px;
+
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.add-expense-form input,
+.add-expense-form select,
+.add-expense-form button {
+  width: 30%;
+}
+
+
+.add-expense-form button:hover {
+  opacity: 0.9;
+}
+
+
+.hidden {
+  display: none;
+}
