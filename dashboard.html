@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="icon" href="favicon.ico">
 </head>
+
 <body>
+
    <header class="site-header">
      <div class="container">
       <a href="index.html"><img src="MyM.png" class="logo" alt="MyMon Logo" /></a>
@@ -18,11 +20,64 @@
         </ul>
       </nav>
   </header>
-      </body>
+
+  <main class="container">
+    <section class="month current-month">
+
+    <div class="month-header">
+      <h2>This month</h2>
+      <span class="month-total">$0</span>
+    </div>
+
+    <div class="month-details">
+      <!-- cheltuieli -->
+       <div class="expense-section">
+        <h3>Expenses</h3>
+
+        <ul class="expense-list">
+          <li class="expense-item">
+            <span class="expense-name">No expenses recorded</span>
+            <span class="expense-amount">$0</span>
+          </li>
+
+          </ul>
+  </div>
+  </div>
+
+    <div class="add-expense">
+  <button class="add-expense-toggle" type="button">
+    ➕ Add expense
+  </button>
+
+  <form class="add-expense-form hidden">
+    <input type="number" placeholder="Amount" />
+
+<select required>
+  <option value="" disabled selected hidden>
+    Select category
+  </option>
+      <option>Entertainment</option>
+      <option>Bills</option>
+      <option>Shopping</option>
+      <option>Hobby</option>
+      <option>Food</option>
+      <option>Transport</option>
+      <option>Other</option>
+    </select>
+
+    <button type="submit">Confirm</button>
+  </form>
+</div>
+
+
+</section>
+  </main>
+
 <footer>
     <div class="container center">
       <p>© 2026 MyMon --- v0.8</p>
     </div>
   </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
